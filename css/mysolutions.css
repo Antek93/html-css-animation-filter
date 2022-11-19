@@ -63,5 +63,68 @@
     border-radius: 50px;
 }
 
-.ex-9-img
+.ex-9-img:hover {
+    filter: blur(1px) hue-rotate(360deg);
+    border-radius: 100px;
+    transform:scale(3);
+}
+
+/* ESERCIZIO 10 */
+
+.ex-10-icon {
+    animation: rotation 3s linear infinite;
+}
+
+@keyframes rotation {
+   
+    25% {
+        transform: rotate (0deg);
+    }
+
+    50% {
+        transform: rotate (180deg);
+    }
+
+    75% {
+        transform: rotate (270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* FINE ESERCIZIO 10 */
+/* INIZIO ESERCIZO 11 */
+
+.ex-11-icon:hover {
+    animation: semi-rotation 3s linear infinite;
+}
+
+@keyframes semi-rotation {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate (180deg);
+    }
+
+    50% {
+        transform: rotate (270deg);
+    }
+
+    75% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* FINE ESERCIZIO 11 */
+/* INIZIO ESERCIZIO 12 */
+
 
