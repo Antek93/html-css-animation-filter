@@ -127,4 +127,87 @@
 /* FINE ESERCIZIO 11 */
 /* INIZIO ESERCIZIO 12 */
 
+.ex-12-button:hover > .ex-12-top-white {
+    animation: moveset 3s linear;
+}
+  
+@keyframes moveset {
 
+  0% {
+    left: 5%;
+}
+
+  25% {
+    left: 10%
+  }
+
+  50% {
+    left: 15%;
+  }
+
+  75% {
+    left: 10%;
+  }
+
+  100% {
+    left: 5%;
+  }
+}
+
+.ex-12-button:hover > .ex-12-bottom-white {
+    animation: movesetb 3s linear;
+}
+  
+@keyframes movesetb {
+
+  0% {
+    right: 20%;
+}
+
+  25% {
+    right: 25%
+  }
+
+  50% {
+    right: 30%;
+  }
+
+  75% {
+    right: 25%;
+  }
+
+  100% {
+    right: 20%;
+  }
+}
+
+/* ESERCIZIO 13  */
+
+.ex-13-button:hover > .ex-13-top-white {
+    animation: movesetc 30s linear;
+}
+
+@keyframes movesetc {
+    0% {
+    left: 15%;
+    }
+
+    25% {
+    left: 55%;
+    }
+
+    50% {
+    left: calc(100%-60px);
+    top: 10%
+    }
+
+    75% {
+    left: 25%;
+    top: 30%;
+    }
+
+    100% {
+    left: 15%;
+    top: 99%;
+ }
+}
